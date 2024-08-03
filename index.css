@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(img/hero4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    gap: 735px;
+    box-shadow: rgba(99, 99, 99, 0.2)0px 2px 8px 0px;
+}
+.list{
+    align-self: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 5px;
+}
+
+#logo{
+    padding: 5px 20px;
+}
+
+div.content{
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    line-height: 40px;
+}
+
+.l2{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.l1{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.l3{
+    font-size: 55px;
+    font-weight: 700;
+    color: rgb(78, 157, 131);
+    line-height: 60px;
+}
+
+.l4{
+    font-size: 20px;
+    color: gray;
+}
+
+.btn{
+    background: url("img/button.png");
+    background-repeat: no-repeat;
+
+}
+
+#shop{
+    padding-left: 80px;
+    font-weight: 500;
+}
